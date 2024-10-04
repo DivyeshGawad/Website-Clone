@@ -68,7 +68,6 @@ body {
   background-color: #fff;
   border: none;
   font-weight: 700;
-  /* letter-spacing: 4px; */
   border-radius: 0;
 }
 
@@ -76,9 +75,6 @@ body {
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
 
 }
-
-/* Video Section */
-
 
 /* Subscribe */
 .subscribe .form-control {
@@ -198,7 +194,6 @@ body {
 
 .post-image {
   max-width: 650px;
-  /* height: auto; */
 }
 
 .link-section {
@@ -213,7 +208,6 @@ body {
   max-width: 650px;
   width: 100%;
   font-size: 1.125rem;
-  /* text-align: justify; */
 }
 
 .post-image-2 {
@@ -463,12 +457,6 @@ td {
   object-position: center;
 }
 
-.square-image {
-  width: 100%; /* Make the image take full width of the column */
-  height: auto; /* Maintain aspect ratio */
-  aspect-ratio: 1 / 1; /* Force a square shape */
-}
-
 
 @media (max-width: 768px) {
   .carousel-item img {
@@ -481,11 +469,11 @@ td {
 }
 
 .img-square {
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 90px;
   object-fit: cover;
   cursor: pointer;
-  border: 1px solid #ddd;
+  border: none;
 }
 
 .thumbnail-section h4 {
